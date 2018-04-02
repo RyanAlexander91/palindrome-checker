@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace PalindromeChecker.UI.Console.Views
 {
-    class MenuView
+    class MainView
     {
         static void Main(string[] args)
         {
-            var mvm = new MenuViewModel();
+            var mvm = new MainViewModel();
             mvm.LaunchApplication();
         }
     }
