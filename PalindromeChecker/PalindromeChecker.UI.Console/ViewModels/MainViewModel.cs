@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PalindromeChecker.UI.Console.ViewModels
+namespace PalindromeChecker.UserInterface.Console.ViewModels
 {
     public class MainViewModel
     {

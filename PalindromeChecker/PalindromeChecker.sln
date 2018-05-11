@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeChecker.SharedCode", "PalindromeChecker.SharedCode\PalindromeChecker.SharedCode.csproj", "{EA05B978-4654-4E9E-991F-CE3E37831822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.UI.Console", "PalindromeChecker.UI.Console\PalindromeChecker.UI.Console.csproj", "{94AE483B-D5B1-4783-AD29-92B2BFAA5A8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.UserInterface.Console", "PalindromeChecker.UI.Console\PalindromeChecker.UserInterface.Console.csproj", "{94AE483B-D5B1-4783-AD29-92B2BFAA5A8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.UserInterface.WPF", "PalindromeChecker.UI.WPF\PalindromeChecker.UserInterface.WPF.csproj", "{123FFF5F-228F-44AB-9368-4904F390F63D}"
 EndProject
@@ -80,6 +80,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EA05B978-4654-4E9E-991F-CE3E37831822} = {D0AE9FC1-71C2-4C5C-9D0D-7B550A55EF3B}
 		{94AE483B-D5B1-4783-AD29-92B2BFAA5A8A} = {89F3ACAF-B8AB-44EF-910C-5950DB9CF456}
+		{123FFF5F-228F-44AB-9368-4904F390F63D} = {89F3ACAF-B8AB-44EF-910C-5950DB9CF456}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {389DAEA2-3846-4C18-B473-249D2A7296D4}
