@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="PalindromeChecker.UserInterface.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PalindromeChecker.UserInterface.UWP">
+
+</Application>
