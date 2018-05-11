@@ -1,5 +1,5 @@
 ﻿using PalindromeChecker.SharedCode;
-using PalindromeChecker.UI.WPF.ViewModels;
+using PalindromeChecker.UserInterface.WPF.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PalindromeChecker.UI.WPF.Views
+namespace PalindromeChecker.UserInterface.WPF.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,9 +24,7 @@ namespace PalindromeChecker.UI.WPF.Views
     {
         public MainWindow()
         {
-            
             InitializeComponent();
-
         }
     }
 }

@@ -8,7 +8,7 @@ using System.Windows.Controls;
 using System.Windows;
 using PalindromeChecker.SharedCode.Commands;
 
-namespace PalindromeChecker.UI.WPF.ViewModels
+namespace PalindromeChecker.UserInterface.WPF.ViewModels
 {
     public class MainViewModel : BaseINPC
     {

@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeChecker.SharedCod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.UI.Console", "PalindromeChecker.UI.Console\PalindromeChecker.UI.Console.csproj", "{94AE483B-D5B1-4783-AD29-92B2BFAA5A8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.UI.WPF", "PalindromeChecker.UI.WPF\PalindromeChecker.UI.WPF.csproj", "{123FFF5F-228F-44AB-9368-4904F390F63D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.UserInterface.WPF", "PalindromeChecker.UI.WPF\PalindromeChecker.UserInterface.WPF.csproj", "{123FFF5F-228F-44AB-9368-4904F390F63D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedCode", "SharedCode", "{D0AE9FC1-71C2-4C5C-9D0D-7B550A55EF3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{89F3ACAF-B8AB-44EF-910C-5950DB9CF456}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,6 +76,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA05B978-4654-4E9E-991F-CE3E37831822} = {D0AE9FC1-71C2-4C5C-9D0D-7B550A55EF3B}
+		{94AE483B-D5B1-4783-AD29-92B2BFAA5A8A} = {89F3ACAF-B8AB-44EF-910C-5950DB9CF456}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {389DAEA2-3846-4C18-B473-249D2A7296D4}
