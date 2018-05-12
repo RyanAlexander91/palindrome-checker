@@ -5,10 +5,55 @@
     xmlns:local="using:PalindromeChecker.UserInterface.UWP"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel="using:PalindromeChecker.UserInterface.UWP.ViewModels"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource SystemControlAcrylicWindowBrush}">
+    <Page.DataContext>
+        <viewmodel:MainViewModel/>
+    </Page.DataContext>
+    <Grid Margin="20">
 
-    <Grid>
+        <!--#region Row Definitions-->
 
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="Row_WelcomeMenu" 
+                           Height="auto" />
+            <RowDefinition x:Name="Row_UserInputTextBlock"
+                           Height="auto"/>
+            <RowDefinition x:Name="Row_CheckButton"
+                           Height="auto"/>
+            <RowDefinition x:Name="Row_Result"
+                           Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <!--#endregion-->
+
+        <!--#region Input Controls-->
+
+        <TextBlock x:Name="TextBlock" 
+                   Text="{Binding UserPrompt}" 
+                   HorizontalAlignment="Center"/>
+
+        <TextBox x:Name="TextBox_UserInput"
+                 Grid.Row="1"
+                 Height="20"
+                 Margin="0,20"
+                 />
+
+        <Button x:Name="Button_CheckPalindrome"
+                Grid.Row="2"
+                Content="Check Palindrome"
+                HorizontalAlignment="Center"
+                Command="{Binding CheckCommand}"
+                CommandParameter="{Binding ElementName=TextBox_UserInput,Path=Text}"/>
+
+        <TextBlock x:Name="TextBlock_Result"
+                 Grid.Row="3"
+                 Margin="0,20"
+                 Text="{Binding ResultLabel, UpdateSourceTrigger=PropertyChanged}"
+                 HorizontalAlignment="Center"/>
+
+        <!--#endregion-->
     </Grid>
+
 </Page>
