@@ -8,16 +8,16 @@ _GIF above shows the Windows Presentation Foundation (WPF) version of the applic
 
 ## Project Requirements:
 
-* Visual Studio 2019 & .NET Framework 4.8
-* For the Universal Windows Platform (UWP) application, the following Windows 10 Software Development Kits (SDK) are required:
+- **Visual Studio 2019** & **.NET Framework 4.8**
+- For the Universal Windows Platform (UWP) application, the following Windows 10 Software Development Kits (SDK) are required:
 
   **Target SDK Version:**
 
-  * **Windows 10 SDK (10.0.18362.1)** - Released in conjunction with Windows 10, version 1903.
-  
+  - **Windows 10 SDK (10.0.18362.1)** - Released in conjunction with Windows 10, version 1903.
+
   **Min SDK Version:**
 
-  * **Windows 10 SDK (10.0.16299.91)** - Released in conjunction with the Windows 10 Fall Creators Update (version 1709).
+  - **Windows 10 SDK (10.0.16299.91)** - Released in conjunction with the Windows 10 Fall Creators Update (version 1709).
 
 ## How to Install:
 
@@ -40,10 +40,10 @@ _GIF above shows the Windows Presentation Foundation (WPF) version of the applic
 <details>
   <summary>Windows Presentation Foundation (WPF)</summary>
 
-  1. Expand `UserInterface` folder.
-  2. Right click on `PalindromeChecker.UI.WPF` and click `Set as StartUp Project`.
-  3. Press `Start` (Green Triangle at top of screen) and the application should load.
-</details>
+1. Expand `UserInterface` folder.
+2. Right click on `PalindromeChecker.UI.WPF` and click `Set as StartUp Project`.
+3. Press `Start` (Green Triangle at top of screen) and the application should load.
+   </details>
 
 <details>
   <summary>Universal Windows Application (UWP)</summary>
