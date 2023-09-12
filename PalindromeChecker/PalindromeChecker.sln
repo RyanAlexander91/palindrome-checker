@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2011
@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeChecker.SharedCod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.UserInterface.Console", "PalindromeChecker.UI.Console\PalindromeChecker.UserInterface.Console.csproj", "{94AE483B-D5B1-4783-AD29-92B2BFAA5A8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.UserInterface.WPF", "PalindromeChecker.UI.WPF\PalindromeChecker.UserInterface.WPF.csproj", "{123FFF5F-228F-44AB-9368-4904F390F63D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeChecker.UserInterface.WPF", "PalindromeChecker.UI.WPF\PalindromeChecker.UserInterface.WPF.csproj", "{123FFF5F-228F-44AB-9368-4904F390F63D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedCode", "SharedCode", "{D0AE9FC1-71C2-4C5C-9D0D-7B550A55EF3B}"
 EndProject
